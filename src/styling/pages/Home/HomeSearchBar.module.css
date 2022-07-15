@@ -1,0 +1,33 @@
+.searchContainer
+{
+max-width: 550px;
+min-width: 200px;
+height: 50px;
+background-color: white;
+margin-top: 50px;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 0 3vw rgba(49, 49, 49, 0.1);
+position: relative;
+}
+.searchContainer input
+{
+height: 60%;
+width: 80%;
+border: none;
+outline: none;
+font-family: var(--main-font);
+font-size: 14px;
+color: #555;
+position: relative;
+}
+.searchContainer i
+{
+position: absolute;
+top: 17px;
+color: #888;
+left: 15px;
+cursor: pointer;
+}

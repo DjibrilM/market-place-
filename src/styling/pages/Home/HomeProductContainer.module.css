@@ -1,0 +1,7 @@
+.mainContainer
+{
+ width: calc(100% - 500px);
+ margin-left: 120px;
+ height: 100vh;
+ position: relative;
+}

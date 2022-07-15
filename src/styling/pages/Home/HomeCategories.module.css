@@ -1,0 +1,57 @@
+.categories
+{
+margin-top: 50px;
+}
+.categories h3
+{
+color: var(--main-text-color);
+font-family: var(--main-font);
+}
+
+.CategoriesContainer
+{
+ display: flex;
+ width: 90%;
+ gap: 10px;
+ flex-wrap: wrap;
+}
+
+
+.CategoriesContainer a
+{
+padding: 8px 15px;
+border-radius: 10px;
+background-color: white;
+box-shadow: var(--main-box-shadow);
+color: var(--main-text-color);
+text-align: center;
+display: flex;
+font-family: var(--main-font);
+gap: 4px;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+transition: 0.5s;
+transform-origin: left;
+max-width: 80px;
+}
+.CategoriesContainer a:hover
+{
+ color: white;
+ background-color: var(--main-color);
+}
+.CategoriesContainer a:nth-child(2)
+{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.CategoriesContainer span
+{
+position: relative;
+font-size: 14px;
+}
+.CategoriesContainer i
+{
+font-size: 15px;
+}
